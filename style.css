@@ -1,0 +1,78 @@
+* { /* El asterisco significa que aplica para todo el html */
+    box-sizing: border-box; /* hace que cuando agregamos margin y padding
+    no afecta las dimensiones del elemento */
+    margin : 0; 
+    padding: 0;
+    /* resetea margenes y padding */
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 500;
+    width: 1000px;
+}
+
+p{
+    font-size: 36px;
+    font-weight: 300;
+    width: 1000px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #f8e4ec;
+}
+
+.container{
+    max-width: 1100px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;  
+}
+
+
+.navbar ul li{
+    list-style: none;
+    padding: 0px 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s; /* para que no vaya al color del hover de una sino q transicione */
+    font-weight: 600;
+}
+
+.navbar .container {
+    padding-top: 20px;
+    margin-left: 400px;
+    padding-bottom: 100px;
+}
+
+.container .principal{
+    display: flex;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.imagen{
+    size: 100%;
+    flex: 1;
+    margin-right: 0px;
+}
+.texto{
+    flex-direction: column;
+    flex: 2;
+    }
